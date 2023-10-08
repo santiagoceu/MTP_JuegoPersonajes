@@ -7,16 +7,38 @@ Diseña una solución basada en patrones que permita al usuario crear nuevos per
 del juego personajes de una colección de personajes creados. Entregable: UML explicado + código
 */
 
-import Personaje.Mago;
-import Personaje.MagoFactory;
+import Personaje.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         MagoFactory magofactory = new MagoFactory();
+        BestiaFactory bestiafactory = new BestiaFactory();
+        NinjaFactory ninjafactory = new NinjaFactory();
+
         Mago mago = (Mago) magofactory.createPersonaje("Pepe",10,10,"daguita","Espeliarmus");
 
         mago.special();
         mago.attack();
+
+        Bestia bestia = (Bestia) bestiafactory.createPersonaje("Mario",20,20,"Palo","Oso");
+
+        bestia.special();
+        bestia.attack();
+
+        Ninja ninja = (Ninja) ninjafactory.createPersonaje("Lucas",15,50,"Shuriken","Explosivo");
+
+        ninja.special();
+        ninja.attack();
+
+        PersonajePrototype personajes = new PersonajePrototype();
+        personajes.put("Pepe",mago);
+        personajes.put("Mario",bestia);
+        personajes.put("Lucas",ninja);
+
+        Mago pepe = (Mago) personajes.get("Pepe");
+
+        System.out.println(pepe.equals(mago));
+
     }
 
 }

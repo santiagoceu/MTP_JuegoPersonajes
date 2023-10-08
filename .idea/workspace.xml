@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5ffb3b-c0f5-4722-97cb-8cba786745bd" name="Changes" comment="todo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Personaje/PersonajePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Personaje/MagoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Personaje/MagoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Personaje/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Personaje/Personaje.java" afterDir="false" />
+    <list default="true" id="ce5ffb3b-c0f5-4722-97cb-8cba786745bd" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Personaje/BestiaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Personaje/NinjaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696330120158</updated>
-      <workItem from="1696330121453" duration="8769000" />
+      <workItem from="1696330121453" duration="9478000" />
     </task>
     <task id="LOCAL-00001" summary="todo">
       <created>1696335872673</created>
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696335872673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prototype">
+      <created>1696756784008</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696756784008</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo" />
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
   </component>
 </project>
