@@ -7,6 +7,6 @@ public class MagoFactory implements PersonajeFactory {
         return new Mago(name,strength,speed,weapon,special);
 
 
-    };
+    }
 
 }

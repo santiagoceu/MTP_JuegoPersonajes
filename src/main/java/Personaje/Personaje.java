@@ -1,6 +1,6 @@
 package Personaje;
 
-public abstract class Personaje {
+public abstract class Personaje implements Cloneable {
 
     String name;
     int strength;
@@ -53,5 +53,10 @@ public abstract class Personaje {
 
     public void setWeapon(String weapon) {
         this.weapon = weapon;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
